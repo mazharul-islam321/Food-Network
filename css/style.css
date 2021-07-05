@@ -19,9 +19,9 @@
 }
 .header-text a{
 	text-decoration: none;
-    padding-left:5%;
+    padding-left:10%;
 	font-size: 2.5em;
-	color: black;
+	color: rgba(0, 0, 0, 0.76);
 }
 .header-nav{
 	flex:1;
@@ -39,7 +39,7 @@
 }
 .header-nav ul li a{
 	text-decoration: none;
-	color: black;
+	color: rgba(0, 0, 0, 0.76);
 	font-size: 1.2em;
 }
 
@@ -47,10 +47,88 @@
 
 #banner-container{
     display: flex;
+    align-items: center;
+    /* background-color: rgb(224, 95, 95); */
+    height: 600px;
+    padding: 50px 0;
 }
 .banner-text{
     flex:1;
+    box-sizing: border-box;
+    padding-left: 5%;
+    /* height: 400px; */
+    /* background-color: gray; */
+}
+.banner-text h1{
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.76);
+}
+.banner-text h1 span{
+    color: rgb(221, 179, 39);
+}
+.banner-text h3{
+    margin-top: 35px;
+    margin-bottom: 55px;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.473);
+}
+.banner-text a{
+    text-decoration: none;
+    padding: 18px 35px;
+    border-radius: 30px;
+    font-weight: 750;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+    margin-top: 40px;
 }
 .banner-image{
     flex:1;
 }
+.banner-image img{
+    width: 80%;
+    height: 600px;
+}
+
+/* About section css */
+
+#about-container{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    background-color: aquamarine;
+    /* padding: 100px 0; */
+}
+.contect-container-image {
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.contect-container-image img{
+    width: 330px;
+    height: 500px;
+}
+.contect-container-text{
+    flex:1;
+    box-sizing: border-box;
+    padding-left: 200px;
+}
+.contect-container-text h1{
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.76);
+}
+.contect-container-text p{
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: 35px;
+    margin-bottom: 100px;
+    font-size: 1.2em;
+}
+.contect-container-text a{
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 30px;
+    font-weight: 750;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+    margin-top: 40px;
+}
+
