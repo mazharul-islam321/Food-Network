@@ -94,26 +94,29 @@
 #about-container{
     display: flex;
     align-items: center;
-    padding-top: 80px;
-    background-color: aquamarine;
-    /* padding: 100px 0; */
+    padding-top: 70px;
+    background-image: url(../img/shapes/Frame\ 57.jpg);
+    background-size: 100% 100%;
 }
 .contect-container-image {
     flex:1;
     display: flex;
     justify-content: center;
+    /* background-color: red; */
 }
 .contect-container-image img{
     width: 330px;
     height: 500px;
+    /* background-color: aquamarine; */
 }
 .contect-container-text{
     flex:1;
-    box-sizing: border-box;
-    padding-left: 200px;
+    /* background-color: rgb(77, 236, 130); */
+
 }
 .contect-container-text h1{
-    font-size: 3em;
+    margin-left: 60px;
+    font-size: 2.6em;
     color: rgba(0, 0, 0, 0.76);
 }
 .contect-container-text p{
@@ -121,6 +124,7 @@
     margin-top: 35px;
     margin-bottom: 100px;
     font-size: 1.2em;
+    margin-left: 60px;
 }
 .contect-container-text a{
     text-decoration: none;
@@ -130,5 +134,60 @@
     background-image: linear-gradient(to bottom right, red, yellow);
     color: white;
     margin-top: 40px;
+    margin-left: 60px;
 }
 
+/* Food container css */
+
+#food-container{
+    height: 365px;
+    background-color: rgb(185, 231, 216);
+}
+.food-gal-text{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.76);
+}
+.food-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2), 0 12px 20px 5px rgba(0, 0, 0, 0.19);
+    background-color: rgba(255, 255, 255, 0.664);
+}
+.food-images img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/* recipies container css */
+
+#recipes-container{
+    /* height: 365px; */
+    background-color: rgb(228, 217, 121);
+    padding: 50px 0;
+}
+.recipes-info{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.recipes-info h1{
+    margin-bottom: 20px;
+}
+.recipes-card{
+    display: flex;
+    justify-content: space-around;
+}
+.recipes-card-item{
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2), 0 12px 20px 5px rgba(0, 0, 0, 0.19);
+}
+.recipes-card-item img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
