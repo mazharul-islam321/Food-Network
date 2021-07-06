@@ -212,11 +212,31 @@
 /* subscription container css*/
 
 #subscription{
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 55px 0;
+    text-align: center;
 }
 .subscription-card{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.2), 0 12px 20px 5px rgba(0, 0, 0, 0.19);
 }
-.subscription-card-info"{
+.subscription-card-info h1{
+    font-size: 50px;
+    font: 900;
+    margin-bottom: 10px;
+}
+/* .subscription-card-info p{
+
+} */
+#footer-container{
     
 }
