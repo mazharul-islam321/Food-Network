@@ -176,6 +176,7 @@
 }
 .recipes-info h1{
     margin-bottom: 20px;
+    font-size: 40px;
 }
 .recipes-card{
     display: flex;
@@ -215,7 +216,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 55px 0;
+    padding: 60px 0;
     text-align: center;
 }
 .subscription-card{
@@ -238,5 +239,15 @@
 
 } */
 #footer-container{
-    
+    padding-top: 40px;
+    text-align: center;
+    height: 170px;
+    background-color: black;
+    color: aliceblue;
+}
+#footer-container h2{
+    margin-bottom: 40px;
+}
+#footer-container h2 span{
+    color: rgb(221, 179, 39);
 }
