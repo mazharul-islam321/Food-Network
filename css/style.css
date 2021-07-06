@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 /* main header css */
@@ -9,23 +10,21 @@
     display: flex;
     align-items: center;
 	height: 20vh;
-    /* background-color: red; */
 }
 .header-text{
 	flex:1;
-	/* background-color: gray; */
-	/* text-align: center; */
-	/* font-family: 'Barlow', sans-serif; */
 }
 .header-text a{
 	text-decoration: none;
     padding-left:10%;
-	font-size: 2.5em;
+	font-size: 2.6em;
 	color: rgba(0, 0, 0, 0.76);
+}
+.header-text a span{
+    color: rgb(221, 179, 39);
 }
 .header-nav{
 	flex:1;
-	/* background-color: rgb(238, 61, 61); */
 }
 .header-nav ul{
 	display: flex;
@@ -40,7 +39,7 @@
 .header-nav ul li a{
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.76);
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 /* Banner container */
@@ -48,7 +47,6 @@
 #banner-container{
     display: flex;
     align-items: center;
-    /* background-color: rgb(224, 95, 95); */
     height: 600px;
     padding: 50px 0;
 }
@@ -56,11 +54,9 @@
     flex:1;
     box-sizing: border-box;
     padding-left: 5%;
-    /* height: 400px; */
-    /* background-color: gray; */
 }
 .banner-text h1{
-    font-size: 4em;
+    font-size: 3.8em;
     color: rgba(0, 0, 0, 0.76);
 }
 .banner-text h1 span{
@@ -74,10 +70,11 @@
 }
 .banner-text a{
     text-decoration: none;
-    padding: 18px 35px;
+    padding: 18px 40px;
     border-radius: 30px;
     font-weight: 750;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, #89f7fe  , #99c3fd);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: white;
     margin-top: 40px;
 }
@@ -102,17 +99,13 @@
     flex:1;
     display: flex;
     justify-content: center;
-    /* background-color: red; */
 }
 .contect-container-image img{
     width: 330px;
     height: 500px;
-    /* background-color: aquamarine; */
 }
 .contect-container-text{
     flex:1;
-    /* background-color: rgb(77, 236, 130); */
-
 }
 .contect-container-text h1{
     margin-left: 60px;
@@ -131,7 +124,8 @@
     padding: 18px 40px;
     border-radius: 30px;
     font-weight: 750;
-    background-image: linear-gradient(to bottom right, red, yellow);
+    background-image: linear-gradient(to bottom right, #89f7fe  , #66a6ff);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     color: white;
     margin-top: 40px;
     margin-left: 60px;
@@ -235,19 +229,33 @@
     font: 900;
     margin-bottom: 10px;
 }
-/* .subscription-card-info p{
 
-} */
+/* footer div css */
+
 #footer-container{
+    display: flex;
     padding-top: 40px;
-    text-align: center;
     height: 170px;
-    background-color: black;
-    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: rgba(240, 248, 255, 0.836);
 }
-#footer-container h2{
+.info-div{
+    flex: 1;
+    text-align: center;
+}
+.info-div h2{
     margin-bottom: 40px;
 }
-#footer-container h2 span{
+.info-div h2 span{
     color: rgb(221, 179, 39);
+}
+.contact-div{
+    flex: 1;
+    text-align: center;
+}
+.contact-div h2{
+    margin-bottom: 10px;
+}
+.contact-div address{
+    line-height: 23px;
 }
